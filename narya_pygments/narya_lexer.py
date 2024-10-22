@@ -47,7 +47,3 @@ class NaryaLexer(RegexLexer):
             (r'[\(\)\[\]\{\},:]', Punctuation),
         ]
     }
-
-# Entry point for Pygments
-def setup(app):
-    return {'version': '0.1', 'parallel_read_safe': True}
